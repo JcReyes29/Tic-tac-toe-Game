@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #192a32;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+/* Contenedor de todos los botones */
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    gap: 40px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* Filas de botones */
+
+.options {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Botones */
+.btn{
+    border: none;
+    outline: none;
+}
+.buttons > button {
+    width: 90px;
+    height: 90px;
+    background-color: #1f3540;
+    border-radius: 8px;
+    margin: 6px;
+    }
+.btn_number{
+    width: 90px;
+    height:60px;
+    margin: 6px;
+}
+.btn_regresar{
+    padding: 5px 8px;
+    border-radius: 6px;
+    border: none;
+    background-color: #a8bec9;
+    margin-right: 4px;
+    
+}
+.btn_turn{
+    padding: 0px 5px;
+    width:90px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    color: #a8bec9;
+    background:#1f3540;
+}
+.Timer > .btn_number{
+    border-radius: 8px;
+    border: none;
+}
+.img{
+   
+}
+
+/* Modal */
+.container2{
+    width: 100vw;
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    background-color:#323232 ;
+    
+}
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f3540;
+    height: 150px;
+}
+
+/* .hidden{
+    display: none;
+} */
+ 
