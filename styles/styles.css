@@ -78,7 +78,7 @@ button {
     margin: 6px;
 }
 
-.btn_regresar {
+.btn_reiniciar {
     padding: 5px 8px;
     border-radius: 6px;
     border: none;
@@ -186,7 +186,7 @@ button {
         color: #f2b237;
     }
 
-    .btn_regresar {
+    .btn_reiniciar {
         padding: 5px 8px;
         border-radius: 6px;
         border: none;
@@ -236,7 +236,7 @@ button {
         color: #f2b237;
     }
 
-    .btn_regresar {
+    .btn_reiniciar {
         padding: 5px 8px;
         border-radius: 6px;
         border: none;

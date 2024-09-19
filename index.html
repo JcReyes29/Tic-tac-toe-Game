@@ -5,34 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous">
-    </script> -->
     <script defer src="./js/main.js"></script>
     <title>Practica 8</title>
 </head>
 
 <body>
+
 <div class="container">
+
     <div class="menu">
         <div class="options">
             <span>X O</span>
-            <button class="btn_turn">TURN</button>
-            <button class="btn_regresar"><img src="./Images/recargar.png" width="20px" ></button>
+            <button class="btn_turn"><span class="turn_player"></span> TURN</button>
+            <button class="btn_reiniciar"><img src="./Images/recargar.png" width="20px" ></button>
         </div>
         <div class="buttons">
-            <button class="btn">X</button>
-            <button class="btn">O</button>
-            <button class="btn">O</button>
-            <button class="btn"></button>
-            <button class="btn"></button>
-            <button class="btn"></button>
-            <button class="btn"></button>
-            <button class="btn"></button>
-            <button class="btn"></button>
+            <button btnIndex="0" class="btn"></button>
+            <button btnIndex="1" class="btn"></button>
+            <button btnIndex="2" class="btn"></button>
+            <button btnIndex="3" class="btn"></button>
+            <button btnIndex="4" class="btn"></button>
+            <button btnIndex="5" class="btn"></button>
+            <button btnIndex="6" class="btn"></button>
+            <button btnIndex="7" class="btn"></button>
+            <button btnIndex="8" class="btn"></button>
         </div>
         <div class="Timer">
             <button class="btn_number" style="background-color:#31c3be ;">X (YOU)</button>
@@ -40,22 +36,17 @@
             <button class="btn_number" style="background-color:#f2b237 ;">(CPU)</button>
         </div>
         <div class="container2 hidden">
-            <div class="modal">
+            <div class="modal ">
                 <div class="modal_content">
-                    <h6>YOU WON!</h6>
-                    <h2>TAKES THE ROUND</h2>
+                    <h6 class="result"></h6>
+                    <h2 class="win"></h2>
                     <button class="btn_quit">QUIT</button>
                     <button class="btn_next">NEXT ROUND</button>
                 </div>
         
             </div>
         </div>
-       
-        
     </div>
-
-    
-
 
 </div>
 
